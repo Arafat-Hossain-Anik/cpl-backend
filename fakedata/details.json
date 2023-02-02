@@ -1,0 +1,74 @@
+[
+    {
+        "courseName": "HTML/CSS For Beginners",
+        "img": "https://imageshack.com/i/pnN6xK8qj",
+        "price": 80,
+        "id": 1,
+        "totalStudent": 67,
+        "rating": "5",
+        "courseTeacher": "Mr. Windy"
+    },
+    {
+        "courseName": "Python Advanced Crush Course",
+        "img": "https://imageshack.com/i/poA2ZYWvj",
+        "price": 100,
+        "id": 2,
+        "totalStudent": 99,
+        "rating": "5",
+        "courseTeacher": "Dr. Chuck"
+    },
+    {
+        "courseName": "Be A Javascript Hero, A to Z",
+        "img": "https://imageshack.com/i/pny6ymxRj",
+        "price": 49,
+        "id": 4,
+        "totalStudent": 63,
+        "rating": "4.5",
+        "courseTeacher": "Brendan Eich"
+    },
+    {
+        "courseName": "Seach Engine Optimaization",
+        "img": "https://imageshack.com/i/pniGC14Gj",
+        "price": 53,
+        "id": 5,
+        "totalStudent": 59,
+        "rating": "3.5",
+        "courseTeacher": "Mrs. Geeta Chowdhury"
+    },
+    {
+        "courseName": "Competitive Programming For Beginner",
+        "img": "https://imageshack.com/i/pmCNItgrj",
+        "price": 120,
+        "id": 6,
+        "totalStudent": 64,
+        "rating": "4.6",
+        "courseTeacher": "Anacor"
+    },
+    {
+        "courseName": "Digital Marketing Beginner To Advanced",
+        "img": "https://imageshack.com/i/povZH12cj",
+        "price": 50,
+        "id": 7,
+        "totalStudent": 76,
+        "rating": "3.5",
+        "courseTeacher": "Khalid Farhan"
+    },
+    {
+        "courseName": "Software Quality Assurance ",
+        "img": "https://imageshack.com/i/poA2ZYWvj",
+        "price": 150,
+        "id": 8,
+        "totalStudent": 70,
+        "rating": "4",
+        "courseTeacher": "Dr. Campbell"
+    },
+    {
+        "courseName": "Android App Development",
+        "img": "https://imageshack.com/i/pofUcgWkj",
+        "price": 79,
+        "id": 3,
+        "totalStudent": 120,
+        "rating": "3",
+        "courseTeacher": "Mr. Jubayer Ahmed"
+    }
+]

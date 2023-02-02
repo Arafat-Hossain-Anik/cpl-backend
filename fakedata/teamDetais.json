@@ -1,0 +1,37 @@
+[
+    {
+        "name": "CSIT",
+        "total-points": 4500,
+        "players": [],
+        "penalty": 0,
+        "email": "csit.cpl@pstu.cpl.com"
+    },
+    {
+        "name": "CCE",
+        "total-points": 4500,
+        "players": [],
+        "penalty": 0,
+        "email": "cce.cpl@pstu.cpl.com"
+    },
+    {
+        "name": "MATH",
+        "total-points": 4500,
+        "players": [],
+        "penalty": 0,
+        "email": "math.cpl@pstu.cpl.com"
+    },
+    {
+        "name": "PHYSICS",
+        "total-points": 4500,
+        "players": [],
+        "penalty": 0,
+        "email": "phy.cpl@pstu.cpl.com"
+    },
+    {
+        "name": "EEE",
+        "total-points": 4500,
+        "players": [],
+        "penalty": 0,
+        "email": "eee.cpl@pstu.cpl.com"
+    }
+]

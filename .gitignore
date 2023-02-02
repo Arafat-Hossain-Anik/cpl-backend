@@ -1,0 +1,8 @@
+.env
+node_modules
+data.json
+fakedata.json
+bestSelling.json
+blog.json
+developersData.json
+reviews.json
