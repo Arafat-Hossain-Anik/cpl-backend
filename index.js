@@ -18,7 +18,8 @@ const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology:
 async function run() {
     try {
         await client.connect();
-        const database = client.db('cpl');
+        // const database = client.db('cpl');
+        const database = client.db('fakeCpl');
         const allPlayersCollection = database.collection('allPlayers');
         // const teamPlayersCollection = database.collection('teamPlayers');
         // const publicDataCollection = database.collection('publicData');
@@ -37,7 +38,9 @@ async function run() {
         app.get('/players', async (req, res) => {
             const cursor = allPlayersCollection.find({})//////testing data change collection
             const players = await cursor.toArray();
-            res.send(players)
+            const finalPlayers = players.filter(player => player.status !== 'bought')
+            // res.json(finalPlayers)
+            res.send(finalPlayers)
         });
         //get single player
         app.get('/players/:id', async (req, res) => {
@@ -70,9 +73,10 @@ async function run() {
             const query = { category: category, role: role };
             console.log("query hitted ", query);
             const cursor = allPlayersCollection.find(query);////for testing purpose
-            console.log(cursor)
+            // console.log(cursor)
             const players = await cursor.toArray();
-            res.json(players)
+            const finalPlayers = players.filter(player => player.status !== 'bought')
+            res.json(finalPlayers)
         })
 
 
@@ -164,8 +168,9 @@ async function run() {
         })
         //add team user
         app.post('/teams', async (req, res) => {
-            const service = req.body;
-            const result = await teamsCollection.insertOne(service);
+            const teamDetais = req.body;
+            // console.log(teamDetais);
+            const result = await teamsCollection.insertOne(teamDetais);
             res.json(result)
             console.log(result);
         });
